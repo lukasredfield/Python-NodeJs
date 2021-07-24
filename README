@@ -1,1 +1,3 @@
 Ejecutar un script de Python desde Node.js
+script_node.js invoca a script_python.py como un subproceso utilizando la función spawn.
+Se establece una comunicación simple donde script_node.js envía un texto simple a script_python.py
