@@ -2,7 +2,7 @@
 // spawn: Método que genera un subproceso
 const spawn = require('child_process').spawn
 // spawn recibe el comando a ejecutar y los argumentos, es similar a utilizar desde línea de comandos "python script_python.py"
-const pythonProcess = spawn('python', ['script_python.py'])
+const pythonProcess = spawn('python', ['comentado.script_python.py'])
 let pythonResponse = ""
 
 // stdout: Se encarga de la salida de datos del stdout del subproceso. En este caso, recibe datos del subproceso de Python.
